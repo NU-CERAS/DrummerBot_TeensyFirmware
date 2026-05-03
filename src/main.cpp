@@ -21,12 +21,12 @@
 #include <Arduino.h>
 
 // --- Pin constants (do not change) ---
-const int BND1DIR = 33;
-const int BND1STP = 34;
+const int BND1DIR = 37;
+const int BND1STP = 38;
 const int BND2DIR = 35;
 const int BND2STP = 36;
-const int TWIDIR  = 37;
-const int TWISTP  = 38;
+const int TWIDIR  = 33;
+const int TWISTP  = 34;
 
 // --- Configurable at runtime via "steps <n>" command ---
 volatile int stepsPerRev = 200;
